@@ -4,4 +4,33 @@ html {
 
 body {
     background-image: linear-gradient(to right bottom, #5c7499, #037a97, #007c7c, #0a794d, #547015);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #14201c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #5c7499;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}
+
+.main {
+    display: block;
+    font-size: 2rem;
+    padding-top: 2em;
 }
