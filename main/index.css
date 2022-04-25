@@ -57,12 +57,18 @@ img {
 }
 
 .text {
-    display: flex;
-    margin-right: 55%;
+    display: block;
+    margin: auto;
+    width: 50%;
     margin-top: 0;
     float: right;
-    max-width: 30%;
     color: #F5F8E7;
+    font-size: large;
+    font-family: 'Anton', sans-serif;
+}
+
+ul {
+    list-style: none;
 }
 
 /* hello text fading in animation */

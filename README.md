@@ -14,3 +14,7 @@
 - Background were set
 - Navbar created and fixed to the top
 - Dummy links created
+
+Update 20.04.2022
+- Home page text changed
+
