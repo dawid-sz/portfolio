@@ -5,10 +5,10 @@ html {
 }
 
 body {
-    background-color: #363432;
+    background-image: url(../images/627c26cf2ecff.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 0;
-    margin: 0;
+    background-position: center;
 }
 
 .navbar {
@@ -38,37 +38,11 @@ a:hover {
     margin: auto;
     width: 50%;
     text-align: center;
-    font-size: 2rem;
-    padding-top: 2em;
+    font-size: 3rem;
+    padding-top: 4em;
     font-family: 'Anton', sans-serif;
     color: #F5F8E7;
     animation: 3s ease-out 0s 1 fadeIn;
-}
-
-.image {
-    display: block;
-    padding-left: 1em;
-}
-
-img {
-    border-radius: 4%;
-    max-width: 100%;
-    height: auto;
-}
-
-.text {
-    display: block;
-    margin: auto;
-    width: 50%;
-    margin-top: 0;
-    float: right;
-    color: #F5F8E7;
-    font-size: large;
-    font-family: 'Anton', sans-serif;
-}
-
-ul {
-    list-style: none;
 }
 
 /* hello text fading in animation */
@@ -87,23 +61,6 @@ ul {
 
 /* responsive text */
 
-@media screen and (max-width: 600px) {
-    .text {
-        display: block;
-        margin: auto;
-        width: 50%;
-        max-width: 100%;
-    }
-}
 
-@media screen and (min-width: 601px) {
-    .text {
-        display: grid;
-        margin-right: 55%;
-        margin-top: 0;
-        float: right;
-        max-width: 30%;
-    }
-}
 
 /* responsive text */
