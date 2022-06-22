@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: url(../images/627c26cf2ecff.jpg);
+    background-image: url(../images/background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -66,3 +66,26 @@ a:hover {
 
 
 /* responsive text */
+
+/* progress bar */
+.polish {
+    background-color: black;
+    border-radius: 13px;
+    padding: 0.5em;
+    width: 15em;
+}
+
+.german {
+    background-color: black;
+    border-radius: 13px;
+    padding: 0.5em;
+    width: 15em;
+}
+
+.english {
+    background-color: black;
+    border-radius: 13px;
+    padding: 0.5em;
+    width: 15em;
+}
+/* progress bar */

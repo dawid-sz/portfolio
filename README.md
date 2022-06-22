@@ -17,4 +17,17 @@
 
 Update 20.04.2022
 - Home page text changed
+- New background
 
+There are some big gaps between the updates, but this is only due to o time to write the code because of my current work that I have. I have had some big projects and I needed to focus on them instead on learning to code. But I am still developing my own site step for step without a rush.
+
+Update 18.06.2022
+- New sectors were added (contact, about me, projects)
+- Bug fixes (nav bar was not displayed properly)
+- Dummy links replaced
+- Links hover animations
+
+Update 22.06.2022
+- Background displaying fixed
+- Background for every site changed
+- Created progress bars for the languages
