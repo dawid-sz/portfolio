@@ -47,6 +47,21 @@ a:hover {
     animation: 3s ease-out 0s 1 fadeIn;
 }
 
+li {
+    list-style: none;
+}
+
+.contact_list {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+ul {
+    display: inline;
+    float: center;
+}
+
 /* hello text fading in animation */
 @keyframes fadeIn {
     0% {

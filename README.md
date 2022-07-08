@@ -31,3 +31,7 @@ Update 22.06.2022
 - Background displaying fixed
 - Background for every site changed
 - Created progress bars for the languages
+
+Update 06.07.2022
+- Update contact page, icons added
+- Centered icons on contact page
