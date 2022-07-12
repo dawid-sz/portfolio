@@ -35,7 +35,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.main {
+.text {
     display: block;
     margin: auto;
     width: 50%;
@@ -47,14 +47,41 @@ a:hover {
     animation: 3s ease-out 0s 1 fadeIn;
 }
 
+.text-socials {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: #F5F8E7;
+    animation: 3s ease-out 0s 1 fadeInReverse;
+}
+
 li {
     list-style: none;
 }
 
 .contact_list {
     margin: auto;
-    width: 50%;
     text-align: center;
+    background-color: #F5F8E7;
+    width: 20rem;
+    padding-right: 2.1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 1.5rem;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.contact_list:hover {
+    opacity: 1;
+}
+
+img {
+    width: 3rem;
 }
 
 ul {
@@ -75,6 +102,22 @@ ul {
     }
 }
 /* hello text fading in animation */
+
+/* socials text fading in reverse animation */
+@keyframes fadeInReverse {
+    0% {
+        transform: translateX(130%);
+    }
+    80% {
+        transform: translateX(-10%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/* socials text fading in animation */
+
+
 
 /* responsive text */
 
