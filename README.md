@@ -40,3 +40,11 @@ Update 12.07.2022
 - Added socials on contact page
 - Added extra animation for second part of the text
 - Hover animation were added to social links icons
+
+Update 13.07.2022
+- About page update
+- Design changes on about page
+- Profile photo added
+- Language skills listed with bar
+- Short description about me
+- On contact page a contact form were added with the first design
