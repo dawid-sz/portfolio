@@ -48,3 +48,9 @@ Update 13.07.2022
 - Language skills listed with bar
 - Short description about me
 - On contact page a contact form were added with the first design
+
+Update 22.07.2022
+- Animation of the text deleted
+- Glass effect added to the "About Me" section
+- Navbar style changed
+- Code adjusted for the navbar
