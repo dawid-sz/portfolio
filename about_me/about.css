@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: url(../images/background2.jpg);
+    background-color: #323330;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,17 +22,16 @@ body {
 }
 
 .navbar a {
-    color: #F5F8E7;
+    color: #323330;
     padding: 0.5rem 2rem 0.5rem 2rem;
     text-decoration: none;
     font-family: 'Anton', sans-serif;
     font-size: 1.2rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) , rgba(255, 255, 255, 0));
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
+    background-color: #F0DB4F;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 1rem;
+    transition: linear 0.25s;
 }
 
 .nav-list {
@@ -46,8 +45,7 @@ body {
 }
 
 a:hover {
-    color: aliceblue;
-    text-decoration: underline;
+    color: white;
 }
 
 .main {
@@ -58,7 +56,7 @@ a:hover {
     font-size: 3rem;
     padding-top: 2rem;
     font-family: 'Anton', sans-serif;
-    color: #F5F8E7;
+    color: #F0DB4F;
 }
 
 .about {
@@ -66,7 +64,7 @@ a:hover {
     width: 20rem;
     font-size: 1.5rem;
     font-family: 'Anton', sans-serif;
-    color: #F5F8E7;
+    color: #F0DB4F;
 }
 
 .about-me {
@@ -78,7 +76,7 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    color: #F5F8E7;
+    color: #F0DB4F;
     font-family: 'Anton', sans-serif;
     font-size: 1.5rem;
 }
@@ -102,23 +100,33 @@ a:hover {
 
 /* progress bar */
 .polish {
-    background-color: #F5F8E7;
+    background-color: #F0DB4F;
     border-radius: 13px;
     padding: 0.5rem;
     width: 15rem;
 }
 
 .german {
-    background-color: #F5F8E7;
+    background-color: #F0DB4F;
     border-radius: 1rem;
     padding: 0.5rem;
     width: 13rem;
 }
 
 .english {
-    background-color: #F5F8E7;
+    background-color: #F0DB4F;
     border-radius: 13px;
     padding: 0.5rem;
     width: 10rem;
 }
 /* progress bar */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    color: #F0DB4F;
+}

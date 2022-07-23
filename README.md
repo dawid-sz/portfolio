@@ -54,3 +54,10 @@ Update 22.07.2022
 - Glass effect added to the "About Me" section
 - Navbar style changed
 - Code adjusted for the navbar
+
+Update 24.07.2022
+- Next main design / layout changes
+- Background changed
+- Home page got new structure
+- Some hover animation changed
+- Footer created and centered at the bottom of every page
