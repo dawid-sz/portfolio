@@ -53,11 +53,37 @@ a:hover {
     width: 50%;
     text-align: center;
     font-size: 3rem;
-    padding-top: 4em;
+    padding-top: 1rem;
     font-family: 'Anton', sans-serif;
     color: #323330;
 }
 
+/* project table */
+.project-tab {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.project-row td {
+    width: 30%;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+img {
+    width: 50%;
+    opacity: 0.5;
+    transition: linear 0.25s;
+}
+
+img:hover {
+    opacity: 1;
+}
+/* project table */
+
+/* footer */
 .footer {
     position: absolute;
     bottom: 0;
@@ -66,9 +92,4 @@ a:hover {
     text-align: center;
     width: 100%;
 }
-
-/* responsive text */
-
-
-
-/* responsive text */
+/* footer */

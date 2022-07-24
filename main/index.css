@@ -70,6 +70,12 @@ a:hover {
 .home-pic {
     width: 25rem;
     border-radius: 50%;
+    transition: linear 0.2s;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.home-pic:hover {
+    border-radius: 10%;
 }
 
 .main {
@@ -92,8 +98,27 @@ a:hover {
     width: 100%;
 }
 
-/* responsive text */
+/* social icons */
+.socials {
+    display: block;
+    text-align: center;
+    margin-right: 4rem;
+    -ms-transform: translateY(-6.5rem);
+    transform: translateY(-6.5rem);
+}
 
+.socials ul {
+    list-style: none;
+}
 
+.socials li {
+    display: inline;
+    float: center;
+    padding-right: 1rem;
+    margin-right: 1.5rem;
+}
 
-/* responsive text */
+img {
+    width: 2rem;
+}
+/* social icons */

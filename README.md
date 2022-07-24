@@ -61,3 +61,11 @@ Update 24.07.2022
 - Home page got new structure
 - Some hover animation changed
 - Footer created and centered at the bottom of every page
+
+Update 25.07.2022
+- Contact page restructured
+- Socials moved to home page
+- Animation added to some objects
+- Project page filled with dummy images
+- About me page restructured
+- New image were added

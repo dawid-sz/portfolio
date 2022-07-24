@@ -59,48 +59,6 @@ a:hover {
     color: #F0DB4F;
 }
 
-.text-socials {
-    display: block;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    margin-top: 7rem;
-    font-size: 3rem;
-    font-family: 'Anton', sans-serif;
-    color: #F0DB4F;
-}
-
-ul {
-    list-style: none;
-}
-
-.contact_list {
-    margin: auto;
-    text-align: center;
-    background-color: #F0DB4F;
-    width: 20rem;
-    padding-right: 2.1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1.5rem;
-    opacity: 0.6;
-    transition: 0.3s;
-}
-
-.contact_list:hover {
-    opacity: 1;
-}
-
-img {
-    width: 3rem;
-}
-
-li {
-    display: inline;
-    float: center;
-    padding: 1rem;
-}
-
 /* contact form */
 input[type=text], select, textarea {
     width: 100%;
@@ -148,7 +106,7 @@ input[type=submit]:hover {
 
 /* footer */
 .footer {
-    position: relative;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
