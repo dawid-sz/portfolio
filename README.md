@@ -69,3 +69,10 @@ Update 25.07.2022
 - Project page filled with dummy images
 - About me page restructured
 - New image were added
+
+Update 07.08.2022
+- "mailto" option added to the mail icon on the homepage
+- Font changed on the "About Me" page
+- Technologies that I use listed on the "About Me" page in form of pictures
+- Personal text added to the "About Me" page
+- Little icon is now displayed on the left side of the title

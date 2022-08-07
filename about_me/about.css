@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
 html {
     height: 100%;
@@ -63,7 +64,7 @@ a:hover {
 .about {
     text-align: left;
     font-size: 1.5rem;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #F0DB4F;
 }
 
@@ -79,7 +80,7 @@ a:hover {
 .languages {
     text-align: left;
     color: #F0DB4F;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -136,6 +137,45 @@ a:hover {
     width: 10rem;
 }
 /* progress bar */
+
+/* technologies that I use */
+
+.technologies {
+    display: block;
+    float: right;
+    position: fixed;
+    bottom: 21%;
+    left: 60%;
+    text-align: center;
+}
+
+.table-head {
+    color: #F0DB4F;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+.technologies-table {
+    margin: auto;
+}
+
+.table-article {
+    display: block;
+    position: fixed;
+    color: #F0DB4F;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    font-size: 1.5rem;
+    width: 13%;
+    bottom: 22%;
+    left: 84%;
+}
+
+/* technologies that I use */
+
 
 /* footer */
 .footer {
