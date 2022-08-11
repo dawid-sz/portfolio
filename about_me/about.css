@@ -70,7 +70,7 @@ a:hover {
 
 .about-me {
     position: absolute;
-    top: 40%;
+    top: 32%;
     width: 35%;
     margin-left: 1%;
 }
@@ -86,7 +86,7 @@ a:hover {
 
 .lang-table {
     position: absolute;
-    top: 55%;
+    top: 65%;
     margin-left: 1%;
     display: block;
     float: right;
@@ -145,7 +145,7 @@ a:hover {
     float: right;
     position: fixed;
     bottom: 21%;
-    left: 60%;
+    left: 63%;
     text-align: center;
 }
 
@@ -170,7 +170,7 @@ a:hover {
     margin: auto;
     font-size: 1.5rem;
     width: 13%;
-    bottom: 22%;
+    bottom: 25%;
     left: 84%;
 }
 
