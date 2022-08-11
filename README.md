@@ -76,3 +76,7 @@ Update 07.08.2022
 - Technologies that I use listed on the "About Me" page in form of pictures
 - Personal text added to the "About Me" page
 - Little icon is now displayed on the left side of the title
+
+Update 11.08.2022
+- Code syntax changes
+- HTML file moved to the root folder
