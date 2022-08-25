@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* --------------- start of the title text --------------- */
+.main {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1rem;
+    font-family: 'Anton', sans-serif;
+    color: #323330;
+}
+/* --------------- end of the title text --------------- */
+
+/* --------------- start of the projects table --------------- */
+.project-tab {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.project-row td {
+    width: 30%;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.img-project {
+    width: 50%;
+    opacity: 0.5;
+    transition: linear 0.25s;
+}
+
+.img-project:hover {
+    opacity: 1;
+}
+/* --------------- end of the projects table --------------- */

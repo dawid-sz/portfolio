@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+/* --------------- start of the title text design --------------- */
+.main-about {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+    font-family: 'Anton', sans-serif;
+    color: #F0DB4F;
+}
+/* --------------- end of the title text design --------------- */
+
+/* --------------- start of the the about me content design --------------- */
+.about {
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #F0DB4F;
+}
+
+.about-me {
+    position: absolute;
+    top: 32%;
+    width: 35%;
+    margin-left: 1%;
+}
+/* --------------- end of the the about me content design --------------- */
+
+/* --------------- start of the the picture design --------------- */
+.about-pic {
+    width: 25%;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    transition: linear 0.2s;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.about-pic:hover {
+    border-radius: 5%;
+}
+
+.image {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    -ms-transform: translateY(-5%);
+    transform: translateY(-5%);
+}
+/* --------------- end of the the picture design --------------- */
+
+/* --------------- start of the technologies design --------------- */
+.technologies {
+    display: block;
+    float: right;
+    position: absolute;
+    bottom: 21%;
+    left: 63%;
+    text-align: center;
+}
+
+.table-head {
+    color: #F0DB4F;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+.technologies-table {
+    margin: auto;
+}
+
+.table-article {
+    display: block;
+    position: absolute;
+    color: #F0DB4F;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+    font-size: 1.5rem;
+    width: 13%;
+    bottom: 25%;
+    left: 84%;
+}
+/* --------------- end of the technologies design --------------- */
+
+

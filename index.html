@@ -5,44 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../images/ds_logo_title.png" type="image/icon type">
-    <link rel="stylesheet" href="main\index.css">
-    <title>Home | Dawid Portfolio</title>
+    <link rel="stylesheet" href="assets\index.css">
+    <link rel="stylesheet" href="assets\projects.css">
+    <link rel="stylesheet" href="assets\contact.css">
+    <link rel="stylesheet" href="assets\about.css">
+    <title>Welcome | Dawid Portfolio</title>
 </head>
 <body>
-    <header class="header">
-        <div class="navbar">
-            <ul class="nav-list">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about_me/about.html">About Me</a></li>
-                <li><a href="../projects/projects.html">Projects</a></li>
-                <li><a href="../contact/contact.html">Contact</a></li>
-            </ul>
+    <main>
+        <div class="fixed-bg bg-1">
+            <header class="header">
+                <!-- ----------- start of the navigation bar section ----------- -->
+                <div class="navbar">
+                    <ul class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- ----------- end of the navigation bar section ----------- -->
+            </header>
+            <!-- ----------- start of the home section ----------- -->
+                <section class="container" id="home">
+                    <div class="main-home">
+                        <table class="tab-main-home">
+                            <tr>
+                                <td>
+                                    <div class="title-home">
+                                        <p>Dawid Szymaniak</p>
+                                    </div>
+                                    <div class="description-home">
+                                        <p>Aspiring Front-End Developer</p>
+                                    </div>
+                                    <div class="socials-home">
+                                        <ul>
+                                            <li><a href="https://www.linkedin.com" alt="LinkedIn link"><img src="../images/linked_icon.png"/></a></li>
+                                            <li><a href="mailto:dawid_szymaniak@outlook.com"><img src="../images/mail_icon.png" alt="mail icon"/></a></li>
+                                            <li><a href="https://github.com/dawid-sz" alt="github link"><img src="../images/github_icon.png" alt="github icon"/></a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                                <td>
+                                    <img src="../images/profile_pic.jpg" alt="profile picture" class="home-pic"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+            <!-- ----------- end of the home section ----------- -->
         </div>
-    </header>
-    <div class="main">
-        <table class="tab-main">
-            <tr>
-                <td>
-                    <div class="title">
-                        <p>Dawid Szymaniak</p>
-                    </div>
-                    <div class="description">
-                        <p>Aspiring Front-End Developer</p>
-                    </div>
-                    <div class="socials">
-                        <ul>
-                            <li><a href="https://www.linkedin.com" alt="LinkedIn link"><img src="../images/linked_icon.png"/></a></li>
-                            <li><a href="mailto:dawid_szymaniak@outlook.com"><img src="../images/mail_icon.png" alt="mail icon"/></a></li>
-                            <li><a href="https://github.com/dawid-sz" alt="github link"><img src="../images/github_icon.png" alt="github icon"/></a></li>
-                        </ul>
-                    </div>
-                </td>
-                <td>
-                    <img src="../images/profile_pic.jpg" alt="profile picture" class="home-pic"/>
-                </td>
-            </tr>
-        </table>
-    </div>
+
+        <!-- ----------- start of the the about me section ----------- -->
+        <div class="fixed-bg bg-2" id="about">
+            <section class="container">
+                <div class="main-about">
+                    <p>A little bit about myself.</p>
+                </div>
+                <div class="about-me">
+                    <p class="about">I am 27 years old. I am from Poland, currently living in Berlin since more than 10 years. I'm married and have a 3 years old son. I love everything about IT and software engineering. I started to learn programming already in 2020, but because of my carrer shifts and becoming a dad I had not always the time to learn as much as I wanted. At present I am learning almost every day at least an hour and I am craving for more! Front-end development is what catched me up. I love to see what is happening with the code that I am writing.</p>
+                </div>
+                <div class="image">
+                    <img src="../images/about-pic.jpg" class="about-pic" alt="profile picture"/>
+                </div>
+                <div class="technologies">
+                    <p class="table-head">Technologies I use to develop websites:</p>
+                    <table class="technologies-table">
+                        <tr>
+                            <td><img src="../images/1200px-CSS.3.svg.png" alt="css logo"/></td>
+                            <td><img src="../images/512px-HTML5_logo_and_wordmark.svg.png" alt="html logo"/></td>
+                        </tr>
+                        <tr>
+                            <td><img src="../images/Javascript-shield.png" alt="javascript logo"/></td>
+                            <td><img src="../images/react_logo.png" alt="react logo"/></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-article">
+                    <p>I learn new things at a fast pace and I am not afraid of new adventures to the world of programming and new challenges in order to get to know new technology. I am curious about everything that is new and I am looking for many solutions to one problem.</p>
+                </div>
+            </section>
+        </div>
+        <!-- ----------- end of the about me section ----------- -->
+
+        <!-- ----------- start of the projects section ----------- -->
+        <div class="fixed-bg bg-1" id="projects">
+            <section class="container">
+                <div class="main">
+                    <p>The projects that I have already finished</p>
+                </div>
+                <table class="project-tab">
+                    <tr class="project-row">
+                        <td>
+                            <img src="../images/palceholder_icon.png" alt="project image" class="img-project">
+                            <p>Title of the project</p>
+                        </td>
+                        <td>
+                            <img src="../images/palceholder_icon.png" alt="project image" class="img-project">
+                            <p>Title of the project</p>
+                        </td>
+                    </tr>
+                    <tr class="project-row">
+                        <td>
+                            <img src="../images/palceholder_icon.png" alt="project image" class="img-project">
+                            <p>Title of the project</p>
+                        </td>
+                        <td>
+                            <img src="../images/palceholder_icon.png" alt="project image" class="img-project">
+                            <p>Title of the project</p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <!-- ----------- end of the projects section ----------- -->
+
+        <!-- ----------- start of the contact section ----------- -->
+        <div class="fixed-bg bg-2" id="contact">
+            <section class="container">
+                <div class="text">
+                    <p>If you would like to contact me, please use the form down here:</p>
+                </div>
+                <!-- table with form to put the data, need to connect with js -->
+                <div class="container-form">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="wholename" placeholder="Your name please...">
+            
+                        <label for="email">E-Mail Address</label>
+                        <input type="email" id="email" name="email" placeholder="Your E-Mail address...">
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Please write your message here..." style="height: 7rem"></textarea>
+            
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <!-- end of the form -->
+            </section>
+        </div>
+        <!-- ----------- end of the contact section ----------- -->
+    </main>
     <footer class="footer">
         <p>© 2022 Dawid Szymaniak</p>
     </footer>

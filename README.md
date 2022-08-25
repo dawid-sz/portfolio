@@ -80,3 +80,10 @@ Update 07.08.2022
 Update 11.08.2022
 - Code syntax changes
 - HTML file moved to the root folder
+
+Update 26.08.2022
+- CSS code got more and clear comments
+- Restructuring the whole website from multipage to a singlepage
+- CSS files imported to the index.html file
+- Repairing the design after import
+- Removed the progress bars from the languages on the about me page

@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-html {
+body,
+html,
+main {
     height: 100%;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-body {
-    background-color: #F0DB4F;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
+/* --------------- start design of the navbar --------------- */
 .header {
-    margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .navbar {
@@ -46,9 +45,12 @@ body {
 a:hover {
     color: white;
 }
+/* --------------- end design of the navbar --------------- */
 
-.title {
+/* --------------- start design of the home content --------------- */
+.title-home {
     display: block;
+    position: inherit;
     text-align: center;
     font-size: 4rem;
     font-family: 'Anton', sans-serif;
@@ -56,7 +58,7 @@ a:hover {
     margin-right: 4rem;
 }
 
-.description {
+.description-home {
     display: block;
     text-align: center;
     font-size: 2rem;
@@ -78,28 +80,20 @@ a:hover {
     border-radius: 10%;
 }
 
-.main {
+.main-home {
     margin: auto;
     width: 50%;
     margin-top: 10%;
 }
 
-.tab-main {
+.tab-main-home {
     margin-left: auto;
     margin-right: auto;
 }
+/* --------------- end design of the home content --------------- */
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    width: 100%;
-}
-
-/* social icons */
-.socials {
+/* --------------- start social icons --------------- */
+.socials-home {
     display: block;
     text-align: center;
     margin-right: 4rem;
@@ -107,11 +101,11 @@ a:hover {
     transform: translateY(-6.5rem);
 }
 
-.socials ul {
+.socials-home ul {
     list-style: none;
 }
 
-.socials li {
+.socials-home li {
     display: inline;
     float: center;
     padding-right: 1rem;
@@ -121,4 +115,34 @@ a:hover {
 img {
     width: 2rem;
 }
-/* social icons */
+/* --------------- end social icons --------------- */
+
+/* --------------- start design of the cointaners / parallax effect --------------- */
+.container {
+    position: absolute;
+}
+
+.fixed-bg {
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.fixed-bg.bg-1 {
+    background-color: #F0DB4F;
+}
+
+.fixed-bg.bg-2 {
+    background-color: #323330;
+}
+/* --------------- end design of the cointaners / parallax effect --------------- */
+
+/* --------------- start design of the footer --------------- */
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+}
+/* --------------- end design of the footer --------------- */
