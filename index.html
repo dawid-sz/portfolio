@@ -14,18 +14,14 @@
 <body>
     <main>
         <div class="fixed-bg bg-1">
-            <header class="header">
                 <!-- ----------- start of the navigation bar section ----------- -->
-                <div class="navbar">
-                    <ul class="nav-list">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About Me</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
+                <nav id="main-nav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
                 <!-- ----------- end of the navigation bar section ----------- -->
-            </header>
             <!-- ----------- start of the home section ----------- -->
                 <section class="container" id="home">
                     <div class="main-home">
@@ -41,7 +37,7 @@
                                     <div class="socials-home">
                                         <ul>
                                             <li><a href="https://www.linkedin.com" alt="LinkedIn link"><img src="../images/linked_icon.png"/></a></li>
-                                            <li><a href="mailto:dawid_szymaniak@outlook.com"><img src="../images/mail_icon.png" alt="mail icon"/></a></li>
+                                            <li><a href="mailto:dawid_szymaniak@outlook.com" alt="mailto: dawid_szymaniak@outlook.com"><img src="../images/mail_icon.png" alt="mail icon"/></a></li>
                                             <li><a href="https://github.com/dawid-sz" alt="github link"><img src="../images/github_icon.png" alt="github icon"/></a></li>
                                         </ul>
                                     </div>
@@ -58,7 +54,7 @@
 
         <!-- ----------- start of the the about me section ----------- -->
         <div class="fixed-bg bg-2" id="about">
-            <section class="container">
+            <section class="container" id="container-about">
                 <div class="main-about">
                     <p>A little bit about myself.</p>
                 </div>
@@ -91,7 +87,7 @@
         <!-- ----------- start of the projects section ----------- -->
         <div class="fixed-bg bg-1" id="projects">
             <section class="container">
-                <div class="main">
+                <div class="main-projects">
                     <p>The projects that I have already finished</p>
                 </div>
                 <table class="project-tab">

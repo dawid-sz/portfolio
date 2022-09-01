@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* --------------- start of the title text --------------- */
-.main {
+.main-projects {
     display: block;
     margin: auto;
     width: 50%;
@@ -15,7 +15,7 @@
 
 /* --------------- start of the projects table --------------- */
 .project-tab {
-    display: block;
+    display: grid;
     margin-left: auto;
     margin-right: auto;
     width: 50%;

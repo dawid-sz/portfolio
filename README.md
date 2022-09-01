@@ -87,3 +87,7 @@ Update 26.08.2022
 - CSS files imported to the index.html file
 - Repairing the design after import
 - Removed the progress bars from the languages on the about me page
+
+Update 01.09.2022
+- Debugging the design errors
+- Changing nav bar design

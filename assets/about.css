@@ -23,14 +23,14 @@
 }
 
 .about-me {
-    position: absolute;
+    display: grid;
     top: 32%;
     width: 35%;
     margin-left: 1%;
 }
 /* --------------- end of the the about me content design --------------- */
 
-/* --------------- start of the the picture design --------------- */
+/* --------------- start of the about me picture design --------------- */
 .about-pic {
     width: 25%;
     border-radius: 50%;
@@ -45,19 +45,16 @@
 }
 
 .image {
-    display: inline-block;
+    display: grid;
     margin: auto;
     text-align: center;
-    -ms-transform: translateY(-5%);
-    transform: translateY(-5%);
 }
 /* --------------- end of the the picture design --------------- */
 
 /* --------------- start of the technologies design --------------- */
 .technologies {
-    display: block;
-    float: right;
-    position: absolute;
+    display: grid;
+    position: inherit;
     bottom: 21%;
     left: 63%;
     text-align: center;
@@ -77,8 +74,7 @@
 }
 
 .table-article {
-    display: block;
-    position: absolute;
+    display: grid;
     color: #F0DB4F;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
