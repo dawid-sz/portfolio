@@ -91,3 +91,6 @@ Update 26.08.2022
 Update 01.09.2022
 - Debugging the design errors
 - Changing nav bar design
+
+Update 03.09.2022
+- Adding first JavaScript code to the page, navbar is showing the active page while scrolling or clicking on the link
