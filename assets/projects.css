@@ -16,19 +16,15 @@
 /* --------------- start of the projects table --------------- */
 .project-tab {
     display: grid;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: center;
 }
 
-.project-row td {
-    width: 30%;
-    text-align: center;
-    padding-bottom: 5rem;
-}
 
 .img-project {
-    width: 50%;
+    width: 25rem;
     opacity: 0.5;
     transition: linear 0.25s;
 }

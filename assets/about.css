@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
 
+
+#container-about {
+    display: flex;
+    padding-top: 10rem;
+}
+
 /* --------------- start of the title text design --------------- */
 .main-about {
-    display: block;
+    flex: 1 1 auto;
     margin: auto;
     width: 50%;
     text-align: center;
@@ -23,7 +29,6 @@
 }
 
 .about-me {
-    display: grid;
     top: 32%;
     width: 35%;
     margin-left: 1%;
@@ -60,7 +65,7 @@
     text-align: center;
 }
 
-.table-head {
+.tech-head {
     color: #F0DB4F;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
