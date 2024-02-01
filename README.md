@@ -116,3 +116,7 @@ Last update was over a year ago and because I learned few new things and still l
 
 - Cleanup the HTML & CSS code
 - Styling the project page
+
+Update 02.02.2024
+ - Cleaning the HTML & CSS code due to redesign ideas
+ - Adjusting the paths

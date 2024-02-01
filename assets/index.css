@@ -7,43 +7,9 @@ main {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-}
-
-/* --------------- start design of the navbar --------------- */
-#main-nav {
-    background-color: #323330;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    box-sizing: border-box;
-    height: 50px;
-}
-
-nav a {
-    color: #F0DB4F;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 5px;    
-}
-
-#main-nav.sticky {
-    position: fixed;
-    top: 0;
-}
-
-nav a.active {
-    color: white;
     background-color: #F0DB4F;
 }
 
-nav a:hover {
-    text-decoration: underline;
-}
-/* --------------- end design of the navbar --------------- */
 
 /* --------------- start design of the home content --------------- */
 .title-home {
@@ -112,41 +78,13 @@ nav a:hover {
 img {
     width: 2rem;
 }
-/* --------------- end social icons --------------- */
 
-/* --------------- start design of the cointaners / parallax effect --------------- */
-.container {
-    position: inherit;
-    width: 100%;
-}
-
-#container-about{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto;
-}
-
-.fixed-bg {
-    min-height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.fixed-bg.bg-1 {
-    background-color: #F0DB4F;
-}
-
-.fixed-bg.bg-2 {
-    background-color: #323330;
-}
-/* --------------- end design of the cointaners / parallax effect --------------- */
 
 /* --------------- start design of the footer --------------- */
 .footer {
+    position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
     width: 100%;
+    text-align: center;
 }
 /* --------------- end design of the footer --------------- */
