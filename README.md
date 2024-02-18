@@ -120,3 +120,9 @@ Last update was over a year ago and because I learned few new things and still l
 Update 02.02.2024
  - Cleaning the HTML & CSS code due to redesign ideas
  - Adjusting the paths
+
+
+19.02.2024
+- rewriting the whole code with new knowledge
+- adjusting the style for mobile view
+- linking properly my pages

@@ -1,90 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-body,
-html,
-main {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
+html {
     background-color: #F0DB4F;
+    --font-color: #323330;
+    --font: 'Anton';
 }
 
-
-/* --------------- start design of the home content --------------- */
-.title-home {
-    display: block;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Anton', sans-serif;
-    color: #323330;
-    margin-right: 4rem;
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
 }
 
-.description-home {
-    display: block;
-    text-align: center;
-    font-size: 2rem;
-    font-family: 'Anton', sans-serif;
-    color: #323330;
-    margin-right: 4rem;
-    -ms-transform: translateY(-5rem);
-    transform: translateY(-5rem);
-}
-
-.home-pic {
-    width: 25rem;
-    border-radius: 50%;
-    transition: linear 0.2s;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
-
-.home-pic:hover {
-    border-radius: 10%;
-}
-
-.main-home {
-    margin: auto;
-    width: 50%;
-    padding-top: 10%;
-}
-
-.tab-main-home {
+.picture-container {
     margin-left: auto;
     margin-right: auto;
 }
-/* --------------- end design of the home content --------------- */
 
-/* --------------- start social icons --------------- */
-.socials-home {
-    display: block;
+.welcome-pic {
+    width: 25rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.picture-container p {
+    font-family: var(--font);
+    color: var(--font-color);
     text-align: center;
-    margin-right: 4rem;
-    -ms-transform: translateY(-6.5rem);
-    transform: translateY(-6.5rem);
+    font-size: 2.5rem;
 }
 
-.socials-home ul {
-    list-style: none;
+.pages {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
 }
 
-.socials-home li {
-    display: inline;
-    float: center;
-    padding-right: 1rem;
-    margin-right: 1.5rem;
+.pages a {
+    text-decoration: none;
+    color: var(--font-color);
 }
 
-img {
-    width: 2rem;
+a:visited {
+    color: var(--font-color);
 }
-
 
 /* --------------- start design of the footer --------------- */
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
 }
 /* --------------- end design of the footer --------------- */
+
+
+
+/* MEDIA QUERY BREAKE POINTS */
+
+/* Small devices (phones, tablets portrait 768px and down) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* Large devices (Laptops/Desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
