@@ -126,3 +126,11 @@ Update 02.02.2024
 - rewriting the whole code with new knowledge
 - adjusting the style for mobile view
 - linking properly my pages
+
+
+29.07.2024
+- rebuilding the whole portfolio with bootstrap
+- seting up html with boostrap classes
+- defining variables for colors
+- adjusting css for about-me section
+- creating the projects section

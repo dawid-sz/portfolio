@@ -1,0 +1,15 @@
+.text-justify {
+    text-align: justify;
+}
+
+#about-me {
+    background-color: var(--bg-c1);
+    padding-top: 15px;
+    height: 100vh;
+    height: 100svh;
+}
+
+.header-name {
+    font-family: var(--font-header1);
+    font-size: 6rem;
+}
