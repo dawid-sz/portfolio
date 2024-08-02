@@ -5,4 +5,9 @@
 
 .image-projects {
     margin-bottom: 20px;
+    transition: all 200ms ease-in;
+}
+
+.image-projects:hover {
+    transform: scale(1.1);
 }

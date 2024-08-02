@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets\index.css">
     <link rel="stylesheet" href="assets\about.css">
     <link rel="stylesheet" href="assets\projects.css">
+    <link rel="stylesheet" href="assets\contact.css">
     <title>Welcome | Dawid Portfolio</title>
 
     <!-- start import icons -->
@@ -72,7 +73,25 @@
 
     <section id="contact">
         <div class="container">
-
+            <h1 class="header-title text-center">Contact Me</h1>
+            <div class="container-sm">
+                <form>
+                    <div class="mb-3">
+                    <label for="email" class="form-label">E-Mail</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">I'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="check-data">
+                    <label class="form-check-label" for="check-data">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </div>
     </section>
 
