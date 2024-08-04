@@ -1,13 +1,5 @@
 #my-projects {
     background-color: var(--bg-c2);
     color: white;
-}
-
-.image-projects {
-    margin-bottom: 20px;
-    transition: all 200ms ease-in;
-}
-
-.image-projects:hover {
-    transform: scale(1.1);
+    padding-bottom: 3rem;
 }

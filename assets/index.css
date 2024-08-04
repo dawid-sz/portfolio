@@ -37,3 +37,15 @@ p {
     font-family: var(--font-header1);
     font-size: 3rem;
 }
+
+.fixed-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--bg-c2);
+    font-family: var(--font-header1);
+}
+
+.fixed-footer a {
+    text-decoration: none;
+    color: white;
+}

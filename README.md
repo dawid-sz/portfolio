@@ -134,3 +134,9 @@ Update 02.02.2024
 - defining variables for colors
 - adjusting css for about-me section
 - creating the projects section
+
+
+05.08.2024
+- footer added
+- inside "My Projects" section replaced the grid with a carousel
+- smaller adjustments for bigger screens
