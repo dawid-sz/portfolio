@@ -140,3 +140,8 @@ Update 02.02.2024
 - footer added
 - inside "My Projects" section replaced the grid with a carousel
 - smaller adjustments for bigger screens
+
+
+06.08.2024
+- replaced the placeholders with images of my projects
+- tweaking the look of the carousel

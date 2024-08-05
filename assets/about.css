@@ -1,6 +1,5 @@
 #about-me {
     background-color: var(--bg-c1);
-    padding-top: 15px;
     height: 100vh;
     height: 100svh;
 }
@@ -14,21 +13,41 @@
     font-size: 6rem;
 }
 
+.bi {
+    font-size: 2.5rem;
+}
+    
+
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tech-icons i {
+    font-size: 2rem;
+    color: var(--bg-c2);
+    transition: transform 0.3s, color 0.3s;
+}
+
+.tech-icons i:hover {
+    transform: scale(1.4);
+    color: #5a5c57;;
+}
+
 @media (min-width: 768px) {
     #about-me {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-}
 
-.bi {
-    font-size: 2.5rem;
-}
-
-
-@media (min-width: 768px) {
     .bi {
+        font-size: 5rem;
+    }
+
+    .tech-icons i {
         font-size: 5rem;
     }
 }
